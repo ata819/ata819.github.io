@@ -27,17 +27,17 @@ const MainAbout = () => {
                 </div>
             </div>
             <div className="container mx-auto flex px-8 py-16 flex-col">
-                <h2 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">Life: </h2>
+                <h2 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-green-400">Life: </h2>
                 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mollis ullamcorper ipsum. Vestibulum non fermentum enim.
                     Duis lacinia orci velit, facilisis convallis nisi pulvinar venenatis. Nam ipsum ipsum, fringilla pretium orci non,
                     sollicitudin dignissim lacus. Aliquam fermentum tempus sapien finibus tincidunt. In turpis enim, gravida sed fermentum sed,
                     tristique vel quam. Sed commodo turpis eget sem vehicula tristique.</p>
-                <h2 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-red-400">Family: </h2>
+                <h2 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-green-400">Family: </h2>
                 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mollis ullamcorper ipsum. Vestibulum non fermentum enim.
                     Duis lacinia orci velit, facilisis convallis nisi pulvinar venenatis. Nam ipsum ipsum, fringilla pretium orci non,
                     sollicitudin dignissim lacus. Aliquam fermentum tempus sapien finibus tincidunt. In turpis enim, gravida sed fermentum sed,
                     tristique vel quam. Sed commodo turpis eget sem vehicula tristique.</p>
-                <h2 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-indigo-400">Interest: </h2>
+                <h2 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-green-400">Interest: </h2>
                 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mollis ullamcorper ipsum. Vestibulum non fermentum enim.
                     Duis lacinia orci velit, facilisis convallis nisi pulvinar venenatis. Nam ipsum ipsum, fringilla pretium orci non,
                     sollicitudin dignissim lacus. Aliquam fermentum tempus sapien finibus tincidunt. In turpis enim, gravida sed fermentum sed,
