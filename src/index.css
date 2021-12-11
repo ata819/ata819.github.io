@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card{
+    @apply bg-gray-800 rounded overflow-hidden shadow-lg relative;
+}
+
+.roundedCard{
+    @apply bg-gray-800 rounded-full overflow-hidden shadow-lg relative;
+}
