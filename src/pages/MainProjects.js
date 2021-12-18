@@ -16,6 +16,11 @@ const MainProjects = () => {
             <div className="mt-2 grid lg:grid-cols-2 gap-x-8 gap-y-8">
                 {mainprojects.map((project) => (
                     <div className="card">
+                    <a
+                    href={project.link} 
+                    key={project.image}
+                    target="_blank"
+                    rel="noopener noreferrer">
                         <div className="relative bg-white pb-2/3">
                         <img
                             alt="gallery"
@@ -23,11 +28,14 @@ const MainProjects = () => {
                             src={project.image}
                         />
                         </div>
+                        </a>
+                        
                         <div className="m-4"> 
                         <h1 className="font-bold text-white">{project.title}</h1>
                         <p className="font-thin ">{project.date}</p>
                         <p className="font-mono text-sm">{project.tech}</p>
                         <p className="block text-green-700">{project.description}</p>
+                        
                         </div>
                     </div>
                 ))}

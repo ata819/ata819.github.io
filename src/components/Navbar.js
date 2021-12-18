@@ -13,9 +13,9 @@ export default function Navbar() {
                     <div className="flex-row flex md:space-x-8 mt-4 md:mt-0 md:text-sm md:font-medium">
                         <Link to="/MainAbout" className="bg-gray-800 hover:bg-gray-900 py-2 px-4 rounded-full">About</Link>
                         <Link to="/MainProjects" className="bg-gray-800 hover:bg-gray-900 py-2 px-4 rounded-full">Projects</Link>
-                        <Link to="/MainContact" className="bg-gray-800 hover:bg-gray-900 py-2 px-4 rounded-full">Contact</Link>
                         <Link to="/MainSkill" className="bg-gray-800 hover:bg-gray-900 py-2 px-4 rounded-full">Skills</Link>
-                        <Link to="/MainBlog" className="bg-gray-800 hover:bg-gray-900 py-2 px-4 rounded-full">Blog</Link>
+                        <Link to="/MainContact" className="bg-gray-800 hover:bg-gray-900 py-2 px-4 rounded-full">Contact</Link>
+                        {/*<Link to="/MainBlog" className="bg-gray-800 hover:bg-gray-900 py-2 px-4 rounded-full">Blog</Link>*/}
                     </div>
                 </nav>
             </div>

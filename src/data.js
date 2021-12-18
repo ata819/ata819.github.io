@@ -1,15 +1,15 @@
 export const projects = [
   {
-    title: "An Android Application",
-    subtitle: "WeChore",
+    title: "WeChore",
+    subtitle: "An Android Application",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: "./project-1.gif",
     link: "https://github.com/ata819/ProjectS",
   },
   {
-    title: "A Relational Database Application",
-    subtitle: "Rental Car System",
+    title: "Rental Car System",
+    subtitle: "Relational Database App",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: "./project-2.gif",
@@ -24,8 +24,8 @@ export const projects = [
     link: "https://www.google.com/",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+    title: "Keylogger",
+    subtitle: "Python Application",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: "./project-4.gif",
@@ -39,7 +39,8 @@ export const mainprojects = [
     tech: "Frontend: Kotlin, XML | Backend: Google Firebase Services",
     date: "January 2021",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "An Android application designed to help household residents organize chores amongst themselves. Allows users to create accounts using their email and invite others into their private household tab. Inside, users are then allowed to create daily chores for the week and assign other invited individuals to do such chores. Each can retain a description and/or a due date if needed. Users can customize their profiles with profile pictures or add phone numbers so others in the home can see.",
+    link: "https://github.com/ata819/ProjectS",
     image: "./project-4.gif"
   },
   {
@@ -47,7 +48,8 @@ export const mainprojects = [
     tech: "Frontend: C/C++ | Backend: SQLite3",
     date: "December 2020",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "A C/C++ application designed as a local Car Rental System with database functionalities. The application can add, remove, and keep track of car information with SQLite and maintain data consistency between tables. Price is calculated by day, car brand, and car model. Design as a fixed point, similar to a car rental at an airport. Picking up and returning the car to the same place.",
+    link: "https://github.com/ata819/CarRentalSystemV2",
     image: "./project-3.gif"
   },
   {
@@ -55,7 +57,8 @@ export const mainprojects = [
     tech: "Language: Python",
     date: "May 2020",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "A Python application capable of recording key inputs, user information, and public IP. All the inputs are collected, parsed, and stored in a text file for later use. When activated, the logs can be sent to any email to be collected. Of course this is illegal and was removed for the protection of any potential victim, but the functionality of storing key inputs remains there as an example.",
+    link: "https://www.google.com/",
     image: "./project-2.gif"
   }
 ];
@@ -140,10 +143,17 @@ export const testimonials = [
 ];
 
 export const skills = [
-  "JavaScript",
+  "Java",
+  "C/C++",
+  "Kotlin",
+  "Python",
+  "JavaScript"
+];
+
+export const technologies = [
   "React",
-  "Next.js",
-  "Node",
-  "GraphQL",
-  "Material UI",
+  "Node.js",
+  "Gradle",
+  "SQLite",
+  
 ];
