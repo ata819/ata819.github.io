@@ -1,5 +1,6 @@
 import React from "react";
-
+import ImageSlider from "../components/ImageSlider";
+import { ImagesData } from "../data";
 
 const MainAbout = () => {
     return (
@@ -20,7 +21,7 @@ const MainAbout = () => {
                     <img
                         className="object-contain h-full w-full object-center rounded"
                         alt="hero"
-                        src="./Alan_03.jpg"
+                        src="./WebsitePhotos/Alan_03.jpg"
                     />
                 </div>
             </div>
@@ -51,7 +52,7 @@ const MainAbout = () => {
                     That's the grind I strive for. I may think my Java programming skills are great, but are they? Have I reached the point where I know all things Java? Probably not, but that’s not going to stop me 
                     from constantly learning and attempting to reach that “unattainable” goal. It may seem morbid to some, but it's something I use to keep going.</p>
                 <h2 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-red-400">Photos: </h2>
-
+                <div className="m-auto"><ImageSlider slides={ImagesData}/></div>
             </div>
         </section>
     );

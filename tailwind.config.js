@@ -2,6 +2,9 @@ module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    container: {
+      center: true,
+    },
     extend: {
       spacing: {
         '1/2': '50%',
@@ -21,6 +24,10 @@ module.exports = {
       '5/6': '83.333333%'
       },
       width: {
+        '600': '600px',
+        '700': '700px'
+      },
+      heigth: {
         '600': '600px'
       }
     },

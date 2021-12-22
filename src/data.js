@@ -3,33 +3,33 @@ export const projects = [
     title: "WeChore",
     subtitle: "An Android Application",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
+      "Tired of organizing who does what in your home? WeChore can help keep track of the who, what, when, and where. An all inclusive app that helps housemates get stuff done... together.",
+    image: "./ProjectData/WeChoreV2_CreateIntro_Official.gif",
     link: "https://github.com/ata819/ProjectS",
   },
   {
     title: "Rental Car System",
     subtitle: "Relational Database App",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
+      "Kar’s Rental System is an all-in-one rental car system designed to help YOU run your business. Use Kars to keep track of cars, clients information, and rental dues with ease.",
+    image: "./ProjectData/CRS_AssignRent_Offical.gif",
     link: "https://github.com/ata819/CarRentalSystemV2",
   },
   {
     title: "Portfolio",
     subtitle: "This Website",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://www.google.com/",
+      "This project is still under construction. Expect it to be cool and amazing once its finished. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet.",
+    image: "./ProjectData/underConstruction.gif",
+    link: "https://ata819.github.io/",
   },
   {
     title: "Keylogger",
     subtitle: "Python Application",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://www.google.com/",
+      "Trying to record and steal strangers' key information? Important credit cards or passwords? Well don’t do that. That’s illegal and unethical. But you can check out this app to see how it's possible.",
+    image: "./ProjectData/KeyloggerExample.gif",
+    link: "https://github.com/ata819/KeyStroke_Logger",
   },
 ];
 
@@ -41,7 +41,7 @@ export const mainprojects = [
     description:
       "An Android application designed to help household residents organize chores amongst themselves. Allows users to create accounts using their email and invite others into their private household tab. Inside, users are then allowed to create daily chores for the week and assign other invited individuals to do such chores. Each can retain a description and/or a due date if needed. Users can customize their profiles with profile pictures or add phone numbers so others in the home can see.",
     link: "https://github.com/ata819/ProjectS",
-    image: "./project-4.gif"
+    image: "./ProjectData/WeChoreV2_CreateIntro_Official.gif"
   },
   {
     title: "Car Rental System",
@@ -50,7 +50,7 @@ export const mainprojects = [
     description:
       "A C/C++ application designed as a local Car Rental System with database functionalities. The application can add, remove, and keep track of car information with SQLite and maintain data consistency between tables. Price is calculated by day, car brand, and car model. Design as a fixed point, similar to a car rental at an airport. Picking up and returning the car to the same place.",
     link: "https://github.com/ata819/CarRentalSystemV2",
-    image: "./project-3.gif"
+    image: "./ProjectData/CRS_AssignRent_Offical.gif"
   },
   {
     title: "Keylogger",
@@ -58,8 +58,8 @@ export const mainprojects = [
     date: "May 2020",
     description:
       "A Python application capable of recording key inputs, user information, and public IP. All the inputs are collected, parsed, and stored in a text file for later use. When activated, the logs can be sent to any email to be collected. Of course this is illegal and was removed for the protection of any potential victim, but the functionality of storing key inputs remains there as an example.",
-    link: "https://www.google.com/",
-    image: "./project-2.gif"
+    link: "https://github.com/ata819/KeyStroke_Logger",
+    image: "./ProjectData/KeyloggerExample.gif"
   }
 ];
 
@@ -69,7 +69,7 @@ export const mainskills = [
     course: "Intro & Intermediate Computer Programming, Data Structures, Computer Algorithms",
     years: "3 Years",
     description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mollis ullamcorper ipsum. Vestibulum non fermentum enim Duis lacinia orci velit, facilisis convallis nisi pulvinar venenatis. Nam ipsum ipsum, fringilla pretium orci non, sollicitudin dignissim lacus. Aliquam fermentum tempus sapien finibus tincidunt. In turpis enim, gravida sed fermentum sed, tristique vel quam. Sed commodo turpis eget sem vehicula tristique",
-    image: "./java_logo_icon.svg"
+    image: "./IconsData/java_logo_icon.svg"
   },
   {
     skillType: "C/C++",
@@ -77,7 +77,7 @@ export const mainskills = [
     years: "3 Years",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./c_icon.svg"
+    image: "./IconsData/c_icon.svg"
   },
   {
     skillType: "Kotlin",
@@ -85,7 +85,7 @@ export const mainskills = [
     years: "1 Year",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./kotlin_icon.svg"
+    image: "./IconsData/kotlin_icon.svg"
   },
   {
     skillType: "Python",
@@ -93,7 +93,7 @@ export const mainskills = [
     years: "1 Year",
     description:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mollis ullamcorper ipsum. Vestibulum non fermentum enim Duis lacinia orci velit, facilisis convallis nisi pulvinar venenatis. Nam ipsum ipsum, fringilla pretium orci non, sollicitudin dignissim lacus. Aliquam fermentum tempus sapien finibus tincidunt. In turpis enim, gravida sed fermentum sed, tristique vel quam. Sed commodo turpis eget sem vehicula tristique",
-    image: "./python_icon.svg"
+    image: "./IconsData/python_icon.svg"
   }
 ];
 
@@ -101,29 +101,59 @@ export const maintools = [
   {
     tool: "SQLite3",
     projectUsed: "Car Rental System",
-    toolImage: "./SQLite_icon.svg"
+    toolImage: "./IconsData/SQLite_icon.svg"
   },
   {
     tool: "Gradle",
     projectUsed: "WeChore",
-    toolImage: "./gradle-1.svg"
+    toolImage: "./IconsData/gradle-1.svg"
   },
   {
     tool: "Firebase",
     projectUsed: "WeChore",
-    toolImage: "./Firebase_Icon.svg"
+    toolImage: "./IconsData/Firebase_Icon.svg"
   },
   {
     tool: "VS Code",
     projectUsed: "Multiple",
-    toolImage: "./Visual_Studio_Code_icon.svg"
+    toolImage: "./IconsData/Visual_Studio_Code_icon.svg"
   },
   {
     tool: "Android Studio",
     projectUsed: "WeChore",
-    toolImage: "./Android_Studio_Icon.svg"
+    toolImage: "./IconsData/Android_Studio_Icon.svg"
   }
 ]
+
+export const ImagesData = [
+  {
+    image: "./WebsitePhotos/Alan_05.jpg"
+  },
+  {
+    image: "./WebsitePhotos/Alan_07.jpg"
+  },
+  {
+    image: "./WebsitePhotos/Alan_09.png"
+  },
+  {
+    image: "./WebsitePhotos/Alan_11.jpg"
+  },
+  {
+    image: "./WebsitePhotos/Alan_10.jpg"
+  },
+  {
+    image: "./WebsitePhotos/Alan_12.jpg"
+  },
+  {
+    image: "./WebsitePhotos/Alan_04.jpg"
+  },
+  {
+    image: "./WebsitePhotos/Alan_06.jpg"
+  },
+  {
+    image: "./WebsitePhotos/Alan_08.jpg"
+  }, 
+];
 
 export const testimonials = [
   {

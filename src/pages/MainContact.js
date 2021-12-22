@@ -24,21 +24,21 @@ const MainContact = () => {
                             <a href="https://www.linkedin.com/in/alantta/">
                                 <img className="object-cover object-center rounded"
                                     alt="hero"
-                                    src="./linkedin_logo_icon.svg" />
+                                    src="./IconsData/linkedin_logo_icon.svg" />
                             </a>
                         </div>
                         <div>
                             <a href="https://github.com/ata819">
                                 <img className="object-cover object-center rounded"
                                     alt="hero"
-                                    src="./github_icon.svg" />
+                                    src="./IconsData/github_icon.svg" />
                             </a>
                         </div>
                         <div>
                             <a href="https://www.facebook.com/alan.ta.12">
                                 <img className="object-cover object-center rounded"
                                     alt="hero"
-                                    src="./facebook_logo_icon.svg" />
+                                    src="./IconsData/facebook_logo_icon.svg" />
                             </a>
                         </div>
                     </div>

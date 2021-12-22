@@ -9,3 +9,27 @@
 .roundedCard{
     @apply bg-gray-800 rounded-full overflow-hidden shadow-lg relative;
 }
+
+.slider {
+    position: relative;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    @apply w-600
+}
+
+.slide {
+    opacity: 0;
+    transition-duration: 1s ease;
+    transform: scale(0.75);
+}
+
+.slide.active {
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(0.75);
+}
