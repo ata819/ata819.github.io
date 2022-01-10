@@ -8,34 +8,31 @@ const MainContact = () => {
                     <h1 className="title-font sm:text-4xl text-3xl mb-2 font-medium text-white">
                         Interested in hiring me?
                     </h1>
-                    <p>
-                        Here's my info:
-                    </p>
                     <p>Availability: Monday - Friday (9:00 am - 5:00 pm) </p>
                     <p>Email (Prefered): AlanTa.858@gmail.com</p>
                     <p>Phone: (858) 335 - 1284 </p>
-                    <a className="font-mono mt-2 text-white hover:bg-gray-700 py-4 px-4 rounded-full" href="./Alan_Ta_Resume.pdf">
+                    <a className="font-mono mt-2 text-white hover:bg-gray-700 py-4 px-4 rounded-full" href="./Alan_Ta_Resume.pdf" target="_blank" rel="noopener noreferrer">
                         CHECK OUT MY RESUME HERE</a>
                     <h1 className="title-font sm:text-4xl text-3xl mb-2 font-medium text-white">
                         Some of my Socials
                     </h1>
                     <div className="w-1/2 h-1/2 grid lg:grid-cols-3 gap-x-8 gap-y-8">
                         <div>
-                            <a href="https://www.linkedin.com/in/alantta/">
+                            <a href="https://www.linkedin.com/in/alantta/" target="_blank" rel="noopener noreferrer">
                                 <img className="object-cover object-center rounded"
                                     alt="hero"
                                     src="./IconsData/linkedin_logo_icon.svg" />
                             </a>
                         </div>
                         <div>
-                            <a href="https://github.com/ata819">
+                            <a href="https://github.com/ata819" target="_blank" rel="noopener noreferrer">
                                 <img className="object-cover object-center rounded"
                                     alt="hero"
                                     src="./IconsData/github_icon.svg" />
                             </a>
                         </div>
                         <div>
-                            <a href="https://www.facebook.com/alan.ta.12">
+                            <a href="https://www.facebook.com/alan.ta.12" target="_blank" rel="noopener noreferrer">
                                 <img className="object-cover object-center rounded"
                                     alt="hero"
                                     src="./IconsData/facebook_logo_icon.svg" />

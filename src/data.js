@@ -145,7 +145,7 @@ export const ImagesData = [
     image: "./WebsitePhotos/Alan_12.jpg"
   },
   {
-    image: "./WebsitePhotos/Alan_04.jpg"
+    image: "./WebsitePhotos/Alan_04.JPG"
   },
   {
     image: "./WebsitePhotos/Alan_06.jpg"
