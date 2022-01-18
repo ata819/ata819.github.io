@@ -27,7 +27,7 @@ const MainSkill = () => {
                                 className="rounded p-2 h-1/2 w-1/3 object-fit overflow-hidden"
                                 src={skill.image}
                             />
-                            <div className="p-4 h-1/2 w-600 overflow-hidden">
+                            <div className="p-4 h-1/2 lg:w-600 overflow-hidden">
                                 <h1 className="font-bold text-white">{skill.skillType}</h1>
                                 <p className=" text-sm text-green-500">{skill.years}</p>
                                 <p className=" text-sm text-green-600">Relevent Courses: {skill.course}</p>

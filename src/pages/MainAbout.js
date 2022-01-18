@@ -12,7 +12,7 @@ const MainAbout = () => {
                     </h1>
                     <p className="leading-relaxed">I graduated from San Diego State University with a Bachelors of Science in Computer Science.
                         Other than programming, I enjoy going to the gym. I go six times a week at 8:30 in the morning. If you would like to learn about my professional life:
-                        <a className="font-mono text-white hover:bg-gray-700 py-1 px-1 rounded-full" href="./Alan_Ta_Resume.pdf">
+                        <a className="font-mono text-white hover:bg-gray-700 py-1 px-1 rounded-full" href="./Alan_Ta_Resume_2022.pdf">
                         CHECK OUT MY RESUME HERE</a>
                         </p>
                         
